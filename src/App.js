@@ -5,7 +5,7 @@ const App = () =>{
   const nextId= useRef(1);
   const [form, setForm]= useState({name: '',username:''});
   const [data, setData]= useState({
-    arry: [],
+    array: [],
     uselessValue:null
   });
 
@@ -61,7 +61,7 @@ const App = () =>{
     );
   return(
     <div>
-      <form onSubmit={onsubmit}>
+      <form onSubmit={onSubmit}>
         <input
           name="username"
           placeholder="아이디"
