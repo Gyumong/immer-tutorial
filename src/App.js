@@ -4,7 +4,7 @@ import './App.css';
 
 const App = () =>{
   return(
-    <div>후</div>
+    <div>후우</div>
   )
 }
 
